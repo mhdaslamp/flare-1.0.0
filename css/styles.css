@@ -2997,6 +2997,7 @@ input::-moz-focus-inner {
   font-weight: 500;
   line-height: var(--vspace-1_75);
   margin-top: 0;
+  color: white;
 }
 
 .item-title {
@@ -4036,6 +4037,7 @@ html.no-csstransitions .s-hero__content {
   .s-header__logo {
     left: 3.2rem;
   }
+
   .s-header__menu-toggle {
     right: 3.2rem;
   }
@@ -4740,13 +4742,14 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-  background-color: var(--color-1);
+  background-color: white;
   padding-top: calc(6 * var(--space));
   padding-bottom: var(--vspace-2);
+  color: blue;
 }
 
 .s-contact__top .h6 {
-  color: black;
+  color: blue;
   margin-top: 0;
   margin-bottom: var(--vspace-1);
 }
@@ -4755,13 +4758,13 @@ html.no-csstransitions .s-hero__content {
   margin-top: var(--vspace-1_5);
   font-family: var(--font-2);
   font-size: calc(var(--text-size) * 6.6);
-  font-weight: 500;
+  font-weight: 250;
   letter-spacing: -0.01em;
   line-height: 1;
 }
 
 .s-contact__email a {
-  color: white;
+  color: blue;
   border-bottom: 2px solid transparent;
 }
 
